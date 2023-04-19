@@ -1,0 +1,297 @@
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Outfit:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+   --Soft-Pink:hsl(333, 80%, 67%);
+
+--Dark-Grayish-Magenta:hsl(300, 43%, 22%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--Light-Grayish-Magent: hsl(0, 0%, 86%);
+
+--White: hsl(0, 0%, 100%);
+font-family: 'League Spartan', sans-serif;
+
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--Light-Grayish-Magenta);
+  font-size: 15px;
+}
+/*FIRST CONTAINER START*/
+.container{
+  margin: 0 auto;
+
+}
+
+
+.rating_description h1{
+
+  font-size: 45px;
+  width: 380px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+.rating_description p{
+    width: 400px;
+    margin-bottom: 10px;
+    color: var(--Dark-Grayish-Magenta);
+    line-height: 18px;
+}
+.rating_info{
+  display: flex;
+  margin-left: 10px;
+
+}
+
+.rating_1 {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: var(--Light-Grayish-Magent);
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+.rating_1 img{
+    height: 15px;
+    margin-right:1px ;
+    padding-left: 7px;
+}
+.rating_1 p{
+  margin-left: 19px;
+}
+
+/*change rating box position*/
+.box1{
+  width: 360px;
+}
+
+.box2{
+  width: 400px;
+ padding-right:20px ;
+   margin-left: 3rem;
+}
+.box3{
+  width: 380px;
+
+  margin-left: 7rem;
+}
+
+
+
+/*FIRST CONTAINER END*/
+
+/*SECOND CONTAINER START*/
+.bottom_rating{
+   margin-top: 30px;
+}
+.rating_card{
+  display: flex;
+  justify-content: space-between;
+}
+.carde{
+       max-width: 500px;
+       height: 220px;
+        background-color: var(--Very-Dark-Magenta);
+        margin-left: 18px;
+      
+       padding: 30px 20px;
+       border-radius: 10px;
+
+}
+.profile{
+  display: flex;
+  align-items: center;
+
+
+}
+ .profile-image img{
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.profile-details h3{
+  color: var(--Light-Grayish-Magenta);
+
+}
+.profile-details h5{
+   color: var(--Soft-Pink);
+   font-size: 14px;
+   margin-top: 5px;
+
+}
+.review p{
+  width: 300px;
+  color: var(--Light-Grayish-Magenta);
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+
+}
+.rating_card-2{
+  margin-top: 20px;
+}
+.rating_card-3{
+  margin-top: 35px;
+}
+
+
+/*SECOND CONTAINER END*/
+
+/*RESPONSIVE FOR MOBILE */
+
+@media screen and ( max-width:480px ) {
+
+  .car{
+    max-width: 399px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+
+  }
+
+/*FIRST CONTAINER START*/
+
+  .rating_info{
+    display: grid;
+    margin-top:30px ;
+    text-align: center;
+
+  }
+  .rating_description p{
+   font-size: 18px;
+   font-weight: 400;
+    margin:  0 auto;
+    margin-bottom: 40px;
+   width: 357px;
+
+
+  
+}
+.rating_description h1{
+
+  font-size: 38px;
+  width: 330px;
+   margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+.rating_box{
+  margin: 0 auto;
+  margin-left: 10px;
+
+}
+
+.rating_1 {
+  
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: var(--Light-Grayish-Magent);
+  padding: 15px 30px;
+  border-radius: 10px;
+ 
+ 
+  display: block;
+}
+.rating_1 img{
+    height: 15px;
+    margin-right:1px ;
+    padding-left: 7px;
+}
+.rating_1 p{
+  margin-top: 10px;
+}
+
+.box1{
+  width: 350px;
+}
+
+.box2{
+  width: 350px;
+ padding-right:0px ;
+   margin-left: 0rem;
+}
+.box3{
+  width: 350px;
+
+  margin-left: 0rem;
+}
+
+/*FIRST CONTAINER END*/
+
+/*SECOND CONTAINER START*/
+
+.rating_card{
+  margin: 0 auto;
+  display: block;
+margin-left:10px ;
+ 
+ 
+}
+.carde{
+  max-width: 335px;
+  height: 240px;
+   background-color: var(--Very-Dark-Magenta);
+   margin-left: 18px;
+  padding: 30px 40px;
+  border-radius: 10px;
+
+}
+
+.profile-details h3{
+  color: var(--Light-Grayish-Magenta);
+
+}
+.profile-details h5{
+   color: var(--Soft-Pink);
+   font-size: 14px;
+   margin-top: 5px;
+
+}
+.review p{
+     max-width: 230px;
+  color: var(--Light-Grayish-Magenta);
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 15px;
+ text-align: left;
+ margin:  0 auto;
+
+ overflow: hidden;
+ margin-top: 20px;
+ 
+
+
+}
+.rating_card-1 .review p{
+  max-width: 230px;
+  font-size: 17px;
+
+
+   
+}
+.rating_card-2 .review p{
+  max-width: 190px;
+  max-width: 290px;
+  font-size: 17px;
+
+}
+.rating_card-3 .review p{
+  max-width: 290px;
+  font-size: 17px;
+  padding-right: 15px;
+
+}
+/*SECOND CONTAINER END*/
+
+  
+}
